@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/">
+    <title>WanderPin - Discover the World</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+      }
+
+      header .logo {
+        height: 50px; /* Adjust based on your logo's dimensions */
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+      }
+
+      /* Hero Section */
+      .hero {
+        background: url("https://via.placeholder.com/1500x800") no-repeat center
+          center/cover;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+      }
+
+      .hero-content {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 2rem;
+        border-radius: 10px;
+      }
+
+      .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .hero .btn {
+        background: #ff6f61;
+        color: #fff;
+        padding: 0.8rem 2rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+      }
+
+      .hero .btn:hover {
+        background: #ff4a3d;
+      }
+
+      /* Features Section */
+      .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        background: #fff;
+      }
+
+      .feature {
+        text-align: center;
+        max-width: 300px;
+      }
+
+      .feature h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .feature p {
+        font-size: 1rem;
+        color: #666;
+      }
+
+      /* Footer */
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        color: #ff6f61;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo-container">
+        <img
+          src="images/wanderpin_logo.png"
+          alt="WanderPin Logo"
+          class="logo"
+        />
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Discover the World with WanderPin</h2>
+        <p>
+          Explore breathtaking destinations, save your favorite spots, and plan
+          your next adventure.
+        </p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature">
+        <h3>Explore Destinations</h3>
+        <p>
+          Find the most beautiful places around the world with detailed guides
+          and photos.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Save Your Favorites</h3>
+        <p>
+          Pin your favorite locations and create personalized travel boards.
+        </p>
+      </div>
+      <div class="feature">
+        <h3>Plan Your Trip</h3>
+        <p>Organize your itinerary and share it with friends and family.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 WanderPin. All rights reserved. |
+        <a href="/privacy-policy">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html>
